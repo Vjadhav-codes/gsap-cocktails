@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Cocktails from "./components/Cocktails";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
+import Art from './components/Art'
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       <Navbar />
       <Hero />
       <Cocktails />
-      <About/>
+      <About />
+      <Art />
     </main>
   );
 };
